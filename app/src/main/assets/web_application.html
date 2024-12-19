@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Application</title>
+    <style>
+        /* CSS for all buttons */
+        button {
+            background-color: #6750A4; /* Background color */
+            color: #fff; /* Text color */
+            padding: 10px 20px; /* Padding around text */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Cursor style on hover */
+            font-size: 16px; /* Font size */
+            margin: 10px; /* Margin around the button */
+        }
+
+        /* CSS for button hover effect */
+        button:hover {
+            background-color: #543C87; /* Darker background color on hover */
+        }
+    </style>
+</head>
+<body>
+<h2>Click the buttons to trigger functions</h2>
+
+<button
+        id="promptButton"
+        onClick="tryItPrompt()"
+>Try it ( prompt )
+</button>
+<br/>
+
+<script type="text/javascript">
+    function tryItPrompt() {
+        prompt("Please enter your name", "Harry Potter");
+    }
+</script>
+</body>
+</html>

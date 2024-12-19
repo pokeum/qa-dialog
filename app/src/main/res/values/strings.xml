@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Inputs Dialog</string>
+
+    <string name="menu_airbridge_qa">Airbridge QA</string>
+    <string name="menu_web_view">WebView</string>
+
+    <string name="button_set_user_id">Set User ID</string>
+    <string name="button_add_user_alias">Add User Alias</string>
+    <string name="button_add_user_attribute">Add User Attribute</string>
+    <string name="button_custom_event">Track Custom Event</string>
+
+    <string name="button_show">Show</string>
+</resources>
